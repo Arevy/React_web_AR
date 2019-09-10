@@ -1,0 +1,68 @@
+{
+  "name": "ar_test_react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aframe-ar": "^0.2.1-a",
+    "aframe-registry": "^0.6.0",
+    "ar.js": "^1.7.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cross-env": "^5.2.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jshint": "^2.10.2",
+    "node": "^12.8.1",
+    "react": "^16.9.0",
+    "react-html-document": "^3.1.0",
+    "react-meta-tags": "^0.7.4",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.1.1",
+    "react-web-ar": "^1.0.0-beta2",
+    "semantic-ui-react": "^0.80.2",
+    "three.ar.js": "^0.1.8",
+    "three.js": "^0.77.1",
+    "threex": "^1.0.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prod": "cross-env NODE_ENV=production & node server"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "colors": "1.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-watch": "^6.0.0",
+    "expect": "1.19.0",
+    "html-loader": "^0.5.5",
+    "jsdom": "8.5.0",
+    "mocha": "5.2.0",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "1.8.0",
+    "open": "^6.4.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.9.0",
+    "three": "^0.107.0",
+    "url-loader": "^2.1.0"
+  }
+}
